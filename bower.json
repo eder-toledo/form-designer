@@ -1,0 +1,6 @@
+{
+  "name": "form-designer",
+  "dependencies": {
+    "jsonform": "*"
+  }
+}
