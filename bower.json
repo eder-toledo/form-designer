@@ -2,6 +2,7 @@
   "name": "form-designer",
   "dependencies": {
     "jsonform": "*",
-    "material-design-lite": "~1.3.0"
+    "material-design-lite": "~1.3.0",
+    "bootstrap-grid-only": "~1.0.0"
   }
 }

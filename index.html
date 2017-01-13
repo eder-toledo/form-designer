@@ -7,16 +7,42 @@
     <title>Design form</title>
 
     <!-- Page styles -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-      <link rel="stylesheet" href="css/material.min.css" />
-      <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css">
+
+    <!-- Bootstrap grid -->
+    <link rel="stylesheet" href="bower_components/bootstrap-grid-only/css/grid12.css">
+    
+    <link rel="stylesheet" href="css/material.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <!-- Colored FAB button with ripple -->
-    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-      <i class="material-icons">add</i>
-    </button>
+    <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Form Designer</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+        </div>
+      </header>
+      <div class="demo-ribbon"></div>
+        <div class="row">
+          <div class="col-xs-12 col-md-4 col-sm-12 "><h5>Add element</h5></div>
+          <div class="col-xs-12 col-md-3 col-md-push-3 col-sm-5  col-sm-push-7"><h5>Properties</h5></div>
+          <div class="col-xs-12 col-md-5 col-md-pull-5 col-sm-7  col-sm-pull-5"><h5>Form</h5></div>
+        </div>
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer--left-section">
+            <ul class="mdl-mini-footer--link-list">
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Privacy and Terms</a></li>
+              <li><a href="#">User Agreement</a></li>
+            </ul>
+          </div>
+        </footer>
+    </div>
   </body>
     <script src="bower_components/material-design-lite/material.min.js"></script>
     <script src="bower_components/jsonform/deps/jquery.min.js"></script>
