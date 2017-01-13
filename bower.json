@@ -1,6 +1,7 @@
 {
   "name": "form-designer",
   "dependencies": {
-    "jsonform": "*"
+    "jsonform": "*",
+    "material-design-lite": "~1.3.0"
   }
 }
