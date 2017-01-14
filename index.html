@@ -1,5 +1,6 @@
 <html>
-  <head>
+
+<head>
     <meta name="format-detection" content="telephone=no" />
     <meta name="msapplication-tap-highlight" content="no" />
     <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
@@ -9,42 +10,56 @@
     <!-- Page styles -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css">
 
     <!-- Bootstrap grid -->
     <link rel="stylesheet" href="bower_components/bootstrap-grid-only/css/grid12.css">
-    
+
     <link rel="stylesheet" href="css/material.min.css" />
     <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <!-- Title -->
-          <span class="mdl-layout-title">Form Designer</span>
-          <!-- Add spacer, to align navigation to the right -->
-          <div class="mdl-layout-spacer"></div>
-        </div>
-      </header>
-      <div class="demo-ribbon"></div>
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Form Designer</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+            </div>
+        </header>
+        <div class="demo-ribbon"></div>
         <div class="row">
-          <div class="col-xs-12 col-md-4 col-sm-12 "><h5>Add element</h5></div>
-          <div class="col-xs-12 col-md-3 col-md-push-3 col-sm-5  col-sm-push-7"><h5>Properties</h5></div>
-          <div class="col-xs-12 col-md-5 col-md-pull-5 col-sm-7  col-sm-pull-5"><h5>Form</h5></div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                <div id="horizontal-menu" class="menu mdl-shadow--3dp visible-xs visible-sm">
+                    <h5 id="title-menu"><center>Add element</center></h5>
+                </div>
+                <div id="vertical-menu" class="menu visible-md visible-lg">
+                    <h5>Add element</h5>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5  col-sm-push-7 col-md-3 col-md-push-5">
+                <h5>Properties</h5>
+            </div>
+            <div class="col-xs-12 col-sm-7  col-sm-pull-5 col-md-5 col-md-pull-3 ">
+                <h5>Form</h5>
+            </div>
         </div>
         <footer class="mdl-mini-footer">
-          <div class="mdl-mini-footer--left-section">
-            <ul class="mdl-mini-footer--link-list">
-              <li><a href="#">Help</a></li>
-              <li><a href="#">Privacy and Terms</a></li>
-              <li><a href="#">User Agreement</a></li>
-            </ul>
-          </div>
+            <div class="mdl-mini-footer--left-section">
+                <ul class="mdl-mini-footer--link-list">
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Privacy and Terms</a></li>
+                    <li><a href="#">User Agreement</a></li>
+                </ul>
+            </div>
         </footer>
     </div>
-  </body>
-    <script src="bower_components/material-design-lite/material.min.js"></script>
-    <script src="bower_components/jsonform/deps/jquery.min.js"></script>
-    <script src="js/index.js"></script>
+</body>
+<script src="bower_components/material-design-lite/material.min.js"></script>
+<script src="bower_components/jsonform/deps/jquery.min.js"></script>
+<script src="js/index.js"></script>
+
 </html>

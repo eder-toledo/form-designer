@@ -1,0 +1,112 @@
+[
+        {
+        "name": "Texto",
+        "type": "input",
+        "template": "<input></input>",
+        "json": "{\"nombre\":\"uno\"}",
+        "attr": {
+            "type": "",
+            "class": ""
+        },
+        "icon": "<i class=\"fa fa-font fa-4x\"></i>"
+    }, {
+        "name": "Parrafo",
+        "type": "textarea",
+        "template": "<textarea></textarea>",
+        "json": "",
+        "attr": {
+            "type": "",
+            "class": ""
+        },
+        "icon": "<i class=\"fa fa-paragraph fa-4x\"></i>"
+    }, {
+        "name": "Number",
+        "type": "input",
+        "template": "<input></input>",
+        "json": "",
+        "attr": {
+            "type": "number",
+            "class": ""
+        },
+        "icon": "<i class=\"fa fa-number fa-4x\">12</i>"
+    }, {
+        "name": "Fecha",
+        "type": "input",
+        "template": "<input></input>",
+        "json": "",
+        "attr": {
+            "type": "date",
+            "class": ""
+        },
+        "icon": "<i class=\"fa fa-calendar fa-4x\"></i>"
+    }, {
+        "name": "Hora",
+        "type": "input",
+        "template": "<input></input>",
+        "json": "",
+        "attr": {
+            "type": "time",
+            "class": ""
+        },
+        "icon": "<i class=\"fa fa-clock-o fa-4x\"></i>"
+    }, {
+        "name": "Ubicación",
+        "type": "input",
+        "template": "<input></input>",
+        "json": "",
+        "attr": {
+            "type": "text",
+            "class": ""
+        },
+        "icon": "<i class=\"fa fa-map-marker fa-4x\"></i>"
+    }, {
+        "name": "Polígono",
+        "type": "input",
+        "template": "<input></input>",
+        "json": "",
+        "attr": {
+            "type": "",
+            "class": ""
+        },
+        "icon": "<i class=\"fa fa-map fa-4x\"></i>"
+    }, {
+        "name": "Imagen",
+        "type": "input",
+        "template": "<input></input>",
+        "json": "",
+        "attr": {
+            "type": "file",
+            "class": ""
+        },
+        "icon": "<i class=\"fa fa-image fa-4x\"></i>"
+    }, {
+        "name": "Selección simple",
+        "type": "select",
+        "template": "<select></select>",
+        "json": "",
+        "attr": {
+            "type": "",
+            "class": ""
+        },
+        "icon": "<i class=\"fa fa-caret-down fa-4x\"></i>"
+    }, {
+        "name": "Selección multiple",
+        "type": "checkbox",
+        "template": "<input></input>",
+        "json": "",
+        "attr": {
+            "type": "checkbox",
+            "class": ""
+        },
+        "icon": "<i class=\"fa fa-square-o fa-4x\"></i>"
+    }, {
+        "name": "Grupo",
+        "type": "div",
+        "template": "<div></div>",
+        "json": "",
+        "attr": {
+            "type": "",
+            "class": ""
+        },
+        "icon": "<i class=\"fa fa-object-group fa-4x\"></i>"
+    }]
